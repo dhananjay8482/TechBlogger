@@ -1,0 +1,1 @@
+alert("Welome to Blog Hunter");

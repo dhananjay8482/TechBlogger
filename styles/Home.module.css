@@ -1,10 +1,11 @@
 .main {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
   padding: 6rem;
   min-height: 100vh;
+  padding-top: 3rem;
 }
 
 .description {
@@ -275,4 +276,23 @@
   to {
     transform: rotate(0deg);
   }
+}
+
+
+.mainnav ul{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.mainnav ul li{
+  margin: 0 24px;
+  list-style: none;
+  font-weight: bold;
+}
+
+
+.myImg{
+  border-radius: 10px;
+  margin: 30px;
 }
