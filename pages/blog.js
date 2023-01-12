@@ -28,7 +28,7 @@ const Blog = (props) => {
           return <div className="blogItem" key={data.slug} >
           <Link href={`blogpost/${data.slug}`} >
           <h3 className={styles.blogItemh3} >{data.title}</h3></Link>
-          <p> {data.content.substr(0,400)} </p>
+          <p> {data.metadesc} </p>
         </div>
         })}
           
