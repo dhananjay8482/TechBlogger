@@ -20,15 +20,22 @@ const Blog = (props) => {
   //     setBlogs(parsed)
   //   })
   // },[])
+  function btnpressed(){
+
+  }
   
   return (
     <div className={styles.container}  >
       <main className={styles.main} >
         {blogs.map((data)=>{
           return <div className="blogItem" key={data.slug} >
-          <Link href={`blogpost/${data.slug}`} >
-          <h3 className={styles.blogItemh3} >{data.title}</h3></Link>
+          {/* <Link href={`blogpost/${data.slug}`} > */}
+          <h3 className={styles.blogItemh3} >{data.title}</h3>
+          {/* </Link> */}
           <p> {data.metadesc} </p>
+          <Link href={`blogpost/${data.slug}`} >
+            <button type="button" class="btn btn-info">Read More</button>
+            </Link>
         </div>
         })}
           

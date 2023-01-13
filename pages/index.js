@@ -24,18 +24,20 @@ export default function Home() {
       {/* <Script src='/sc.js' strategy='lazyOnload' ></Script> */}
       <main className={styles.main}>
         <div >
-          <h1 className={styles.title} >Hunting Coder</h1>
+          <h1 className={styles.title} >Tech Blogs</h1>
           {/* <Image className={styles.myImg} src='/homeing.jpg' width={237} height={158} /> */}
           <img className={styles.myImg} alt="Hunting Coder" src='/homeing.jpg' width={237} height={158} />
-          <p className={styles.description} >
-            A blog for hunting coders 
+          <p className={styles.description1} >
+            Tcehnical blogs written by geeks to help geeks.
           </p>
         </div>
+        <hr />
         <div className="blogs">
           <h2>Popular Blogs</h2>
           <div className="blogItem">
             <h3>How to learn JS in 2022</h3>
             <p>JS is a language for design logic for web</p>
+            
           </div>
           <div className="blogItem">
             <h3>How to learn JS in 2022</h3>

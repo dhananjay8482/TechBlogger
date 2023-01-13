@@ -1,0 +1,14 @@
+.container{
+    max-width: 45vw;
+    margin: auto;
+    /* font-family: sans-serif; */
+    margin-bottom: 10vh;
+}
+
+.center{
+    text-align: center;
+}
+
+.ul{
+    margin-left: 5vh;
+}

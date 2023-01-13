@@ -6,6 +6,8 @@
   padding: 6rem;
   min-height: 100vh;
   padding-top: 3rem;
+  margin: auto;
+  
 }
 
 .description {
@@ -293,6 +295,19 @@
 
 
 .myImg{
-  border-radius: 10px;
-  margin: 30px;
+  border-radius: 20px;
+  margin: 5vh;
+  align-items: center;
+  margin-left: 5vh;
+}
+
+.description1{
+  font-size: 3vh;
+}
+
+.title{
+  margin-top: -5vh;
+  text-decoration: solid;
+  text-align: center;
+  font-size: 8vh;
 }
